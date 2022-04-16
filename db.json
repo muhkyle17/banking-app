@@ -1,0 +1,41 @@
+{
+  "accounts": [
+    {
+      "id": 1,
+      "owner": "Mikyle",
+      "movements": [
+        {
+          "type": "deposit",
+          "amount": 1000
+        },
+        {
+          "type": "withdrawal",
+          "amount": 300
+        }
+      ],
+      "pin": 1111
+    },
+    {
+      "id": 2,
+      "owner": "Misha",
+      "movements": [
+        {
+          "type": "deposit",
+          "amount": 1000
+        },
+        {
+          "type": "withdrawal",
+          "amount": 300
+        }
+      ],
+      "pin": 1111
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ]
+}

@@ -13,8 +13,7 @@ function login() {
   } = useForm()
 
   const onSubmit = (data) => console.log(data)
-  console.log(watch('username'))
-  console.log(watch('password'))
+  // console.log(watch('username'), watch('password'))
 
   return (
     <>
