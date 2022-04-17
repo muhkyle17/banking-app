@@ -54,6 +54,7 @@ function login() {
         console.log(err)
       })
       .then(() => {})
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   if (userNameList.includes(userFirstName) && userPinList.includes(userPin)) {
